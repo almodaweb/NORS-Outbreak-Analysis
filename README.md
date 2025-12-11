@@ -13,19 +13,20 @@ Key findings show that illnesses were relatively stable from 2000–2008 but ros
 The analysis concludes that the 2012 spike reflects an intersection of increased outbreak frequency, expanded surveillance, and the emergence of highly transmissible norovirus strains. To support public health preparedness, recommendations include strengthening setting-specific prevention strategies, improving real-time surveillance for norovirus and other leading etiologies, and conducting deeper investigations into post-2012 sustained illness levels. These insights provide a foundation for targeted outbreak prevention and improved monitoring strategies.
 
 ## File Directory
+.
 ├── README.md
-
+│
 ├── Data
 │   ├── NORS_original.csv
 │   └── NORS_cleaned.csv
-
+│
 ├── Code
 │   ├── 01_Data_Cleaning.ipynb
 │   └── 02_EDA.ipynb
-
+│
 ├── Presentation
 │   └── GA DS NORS EDA.pdf
-
+│
 ├── Figures
 │   ├── annual_illness_trends.png
 │   ├── transmission_mode_shifts.png
@@ -37,6 +38,7 @@ The analysis concludes that the 2012 spike reflects an intersection of increased
 │   ├── average_monthly_illnesses_2000_2012.png
 │   ├── person_to_person_illnesses_by_setting.png
 │   └── outbreaks_vs_severity_2000_2012.png
+
 
 
 ## Data and Data Dictionary
