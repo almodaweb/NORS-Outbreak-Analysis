@@ -107,10 +107,14 @@ among U.S. children, 2000–2009. The Journal of Infectious Diseases, 211(7), 10
 Mattison, K., Bruggink, L., Middaugh, J., & Cook, A. (2010). Norovirus and medically attended gastroenteritis in U.S. children. Clinical Infectious Diseases, 50(1), 32–38. https://doi.org/10.1086/648426
 
 ## Key visualizations
+* Figure 1. Annual Illness Trends (2000–2024)
 ![Figure 1. Annual Illness Trends (2000–2024)](Figures/annual_illness_trends.png)
 
+* Figure 2. Transmission Modes Over Time (2000–2012) 
 ![Figure 2. Transmission Modes Over Time (2000–2012)](Figures/transmission_mode_shifts.png)
 
+* Figure 3. Illnesses by Etiology (2000-2012) 
 ![Figure 3. Illnesses by Etiology (2000-2012)](Figures/illnesses_by_etiology.png)
 
+* Figure 4. Outbreak Frequency and Average Outbreak Size (2000–2012)
 ![Figure 4. Outbreak Frequency and Average Outbreak Size (2000–2012)](Figures/outbreaks_vs_severity_2000_2012.png)
