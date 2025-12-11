@@ -13,30 +13,31 @@ Key findings show that illnesses were relatively stable from 2000–2008 but ros
 The analysis concludes that the 2012 spike reflects an intersection of increased outbreak frequency, expanded surveillance, and the emergence of highly transmissible norovirus strains. To support public health preparedness, recommendations include strengthening setting-specific prevention strategies, improving real-time surveillance for norovirus and other leading etiologies, and conducting deeper investigations into post-2012 sustained illness levels. These insights provide a foundation for targeted outbreak prevention and improved monitoring strategies.
 
 ## File Directory
-├── README.md  
-│  
-├── Data  
-│   ├── NORS_original.csv  
-│   └── NORS_cleaned.csv  
-│  
-├── Code  
-│   └── 01_Data_Cleaning.ipynb  
-│   └── 02_EDA.ipynb  
-│  
-├── Presentation  
+├── README.md
+
+├── Data
+│   ├── NORS_original.csv
+│   └── NORS_cleaned.csv
+
+├── Code
+│   ├── 01_Data_Cleaning.ipynb
+│   └── 02_EDA.ipynb
+
+├── Presentation
 │   └── GA DS NORS EDA.pdf
-│  
+
 ├── Figures
-│   └── annual_illness_trends.png
-│   └── transmission_mode_shifts.png 
-│   └── illnesses_by_etiology.png
-│   └── norovirus_illness_trends.png
-│   └── state_level_totals_2009_2012.png
-│   └── state_level_person_to_person_2009_2012.png 
-│   └── seasonal_pattern_shift.png 
-│   └── average_monthly_illnesses_2000_2012.png 
-│   └── person_to_person_illnesses_by_setting.png  
+│   ├── annual_illness_trends.png
+│   ├── transmission_mode_shifts.png
+│   ├── illnesses_by_etiology.png
+│   ├── norovirus_illness_trends.png
+│   ├── state_level_totals_2009_2012.png
+│   ├── state_level_person_to_person_2009_2012.png
+│   ├── seasonal_pattern_shift.png
+│   ├── average_monthly_illnesses_2000_2012.png
+│   ├── person_to_person_illnesses_by_setting.png
 │   └── outbreaks_vs_severity_2000_2012.png
+
 
 ## Data and Data Dictionary
 This project uses publicly available outbreak surveillance data from the CDC’s National Outbreak Reporting System (NORS), which compiles reports from state, local, and territorial health departments across the United States. The dataset includes outbreak-level information on exposure setting, etiology, transmission mode, and illness outcomes.
@@ -107,7 +108,7 @@ Mattison, K., Bruggink, L., Middaugh, J., & Cook, A. (2010). Norovirus and medic
 ## Key visualizations
 ![Figure 1. Annual Illness Trends (2000–2024)](Figures/annual_illness_trends.png)
 
-![Figure 2. Transmission Modes Over Time (2000–2012)](Figures/illnesses_by_transmission_mode.png)
+![Figure 2. Transmission Modes Over Time (2000–2012)](Figures/transmission_mode_shifts.png)
 
 ![Figure 3. Illnesses by Etiology (2000-2012)](Figures/illnesses_by_etiology.png)
 
