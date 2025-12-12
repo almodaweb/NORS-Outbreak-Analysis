@@ -41,7 +41,7 @@ The analysis concludes that the 2012 spike reflects an intersection of increased
 ```
 
 ## Data and Data Dictionary
-This project uses publicly available outbreak surveillance data from the CDC’s National Outbreak Reporting System (NORS), which compiles reports from state, local, and territorial health departments across the United States. The dataset includes outbreak-level information on exposure setting, etiology, transmission mode, and illness outcomes.
+This project uses publicly available outbreak surveillance data from the CDC’s National Outbreak Reporting System (NORS), which compiles reports from state, local, and territorial health departments across the United States. The dataset contains 66,700 outbreak records and 19 variables. Each row represents one reported outbreak, including its exposure details, transmission characteristics, severity, and implicated sources.
 
 CDC National Outbreak Reporting System — https://www.cdc.gov/nors/
 
