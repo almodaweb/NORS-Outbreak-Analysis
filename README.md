@@ -13,20 +13,20 @@ Key findings show that illnesses were relatively stable from 2000–2008 but ros
 The analysis concludes that the 2012 spike reflects an intersection of increased outbreak frequency, expanded surveillance, and the emergence of highly transmissible norovirus strains. To support public health preparedness, recommendations include strengthening setting-specific prevention strategies, improving real-time surveillance for norovirus and other leading etiologies, and conducting deeper investigations into post-2012 sustained illness levels. These insights provide a foundation for targeted outbreak prevention and improved monitoring strategies.
 
 ## File Directory
-.
+```
 ├── README.md
-│
+
 ├── Data
 │   ├── NORS_original.csv
 │   └── NORS_cleaned.csv
-│
+
 ├── Code
 │   ├── 01_Data_Cleaning.ipynb
 │   └── 02_EDA.ipynb
-│
+
 ├── Presentation
 │   └── GA DS NORS EDA.pdf
-│
+
 ├── Figures
 │   ├── annual_illness_trends.png
 │   ├── transmission_mode_shifts.png
@@ -38,11 +38,10 @@ The analysis concludes that the 2012 spike reflects an intersection of increased
 │   ├── average_monthly_illnesses_2000_2012.png
 │   ├── person_to_person_illnesses_by_setting.png
 │   └── outbreaks_vs_severity_2000_2012.png
-
-
+```
 
 ## Data and Data Dictionary
-This project uses publicly available outbreak surveillance data from the CDC’s National Outbreak Reporting System (NORS), which compiles reports from state, local, and territorial health departments across the United States. The dataset includes outbreak-level information on exposure setting, etiology, transmission mode, and illness outcomes.
+This project uses publicly available outbreak surveillance data from the CDC’s National Outbreak Reporting System (NORS), which compiles reports from state, local, and territorial health departments across the United States. The dataset contains 66,700 outbreak records and 19 variables. Each row represents one reported outbreak, including its exposure details, transmission characteristics, severity, and implicated sources.
 
 CDC National Outbreak Reporting System — https://www.cdc.gov/nors/
 
@@ -108,10 +107,14 @@ among U.S. children, 2000–2009. The Journal of Infectious Diseases, 211(7), 10
 Mattison, K., Bruggink, L., Middaugh, J., & Cook, A. (2010). Norovirus and medically attended gastroenteritis in U.S. children. Clinical Infectious Diseases, 50(1), 32–38. https://doi.org/10.1086/648426
 
 ## Key visualizations
+* Figure 1. Annual Illness Trends (2000–2024)
 ![Figure 1. Annual Illness Trends (2000–2024)](Figures/annual_illness_trends.png)
 
+* Figure 2. Transmission Modes Over Time (2000–2012) 
 ![Figure 2. Transmission Modes Over Time (2000–2012)](Figures/transmission_mode_shifts.png)
 
+* Figure 3. Illnesses by Etiology (2000-2012) 
 ![Figure 3. Illnesses by Etiology (2000-2012)](Figures/illnesses_by_etiology.png)
 
+* Figure 4. Outbreak Frequency and Average Outbreak Size (2000–2012)
 ![Figure 4. Outbreak Frequency and Average Outbreak Size (2000–2012)](Figures/outbreaks_vs_severity_2000_2012.png)
